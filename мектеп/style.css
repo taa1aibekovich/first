@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: Montserrat;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background: #2435A1;
+    padding: 30px 0;
+}
+.header-nav select{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+background: #2435A1;
+
+/* link */
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.2px;
+border: none;
+margin-left: 113px;
+}
+.header-nav a{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+
+/* link */
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.2px;
+margin-left: 113px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero{
+    background: url(./img/Vector\ \(1\).png) no-repeat bottom/cover;
+    min-height: 80vh;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text h1{
+    color: var(--light-text-color, #FFF);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 80px; /* 166.667% */
+}
+.hero-text p{
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.2px;
+margin: 50px 0;
+}
+.icon-cir{
+    width: 70px;
+height: 70px;
+border-radius: 51px;
+border: 1px solid #FFF;
+}
+.icon-txt{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.icon-txt h6{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.hero-icon{
+    position: relative;
+    
+}
+
+/* !HERO-TWO START */
+.hero-two{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-line{ 
+    margin: 70px 128px;
+    width: 983px;
+    height: 8px;
+    background:  #1100D9;
+
+}
+.school-left{
+    position: relative;
+
+}
+.school-left img{
+    position: absolute;
+    top: -300px;
+    left: - 340px;
+
+}
+ .school-block{
+    width: 662px;
+    height: 478px;
+    flex-shrink: 0;
+    background:  #FC724D;
+
+}
+.school-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* !HERO-TWO END */
+
+.hero-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-line {
+    width: 983px;
+    height: 8px;
+    stroke-width: 5px;
+    background: #1100d9;
+    margin-top: 88px;
+  }
+  .school-block {
+    width: 625px;
+    height: 458px;
+    background: #fc724d;
+  }
+  .school-left img {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+  }
+  
+  .school-left {
+    position: relative;
+  }
+  .school-text h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+  }
+  .school-text p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+  }
+  .school-student {
+    display: flex;
+    align-items: center;
+  }
+  .school-student h2 {
+    color: #252b42;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  .school-student h2 span {
+    color: #1100d9;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+  .school {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 95px;
+    margin: 88px 0 50px 0;
+  }
+  .hero-two h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 163.4%; /* 29.412px */
+    letter-spacing: 0.2px;
+    width: 80%;
+    margin-bottom: 49px;
+  }
+  button {
+    border-radius: 16px;
+    border: 2px solid #1100d9;
+    width: 257px;
+    height: 55px;
+    color: #1100d9;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+  /* slaide */
+  .slaide-block {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px; /* 177.778% */
+    letter-spacing: 0.1px;
+  }
+  .slaide-block p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+  }
+  .container h1 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    margin: 88px 0 40px 0;
+    width: 80%;
+  }
+  .slaide {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+  
